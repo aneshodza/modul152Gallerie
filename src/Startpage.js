@@ -123,6 +123,21 @@ export default function Startpage() {
                             </div>
                         </div>
                     </div>
+
+                    <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                        <div class="col-lg-6"><img class="img-fluid" src={require("./assets/img/Bitmap.png")} alt="..." /></div>
+                        <div class="col-lg-6 order-lg-first">
+                            <div class="bg-black text-center h-100 project">
+                                <div class="d-flex h-100">
+                                    <div class="project-text w-100 my-auto text-center text-lg-right">
+                                        <h4 class="text-white">BMP</h4>
+                                        <p class="mb-0 text-white-50">Der Bitmap Dateityp hat verschiedene Versionen. Hier schauen wir uns die in meinen Augen spannenste an. Die 1-Bit monochrome Bitmap. Auf dem Bild, welches daneben steht, ist die linke Seite die Bitmap. Per Pixel wird genau 1 Bit angewendet, was bedeuted, dass das Bild nur "Pixel ist an" mit einem 1 und "Pixel ist aus" mit einem 0 definieren kann. Hier ist man sehr eingeschränkt, da man nur schwarz-weiss und ohne transparenz arbeiten kann. Diese Bilder haben aber eine sehr kleine Dateiengrösse.</p>
+                                        <hr class="d-none d-lg-block mb-0 me-0" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
 

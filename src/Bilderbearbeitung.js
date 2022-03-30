@@ -162,7 +162,7 @@ export default function Bilderbearbeitung() {
             <Modal show={show} onHide={() => setShow(false)} size="lg">
                 <Modal.Header closeButton />
                 <Modal.Body style={{"width": "90vw"}}>
-                    <img src={require('./assets/img/QualitätUneditiert.jpeg')} style={{"width": "72vw"}}/>
+                    <img src={require('./assets/img/QualitätUneditiert.jpeg')} style={{"width": "56vw"}}/>
                 </Modal.Body>
             </Modal>
 

@@ -59,19 +59,19 @@ export default function Fotografie() {
                                 <Carousel.Item>
                                     <img class="img-fluid" src={require("./assets/img/ISO60.jpeg")} alt="..." style={{ "height": '100%', "width": "100%" }} />
                                     <Carousel.Caption>
-                                        <p style={{ "color": "red", "fontWeight": "bold" }}>ISO 75</p>
+                                        <p style={{ "color": "red", "fontWeight": "bold" }}>ISO 100</p>
                                     </Carousel.Caption>
                                 </Carousel.Item>
                                 <Carousel.Item>
                                     <img class="img-fluid" src={require("./assets/img/ISO130.jpeg")} alt="..." style={{ "height": '100%', "width": "100%" }} />
                                     <Carousel.Caption>
-                                        <p style={{ "color": "red", "fontWeight": "bold" }}>ISO 125</p>
+                                        <p style={{ "color": "red", "fontWeight": "bold" }}>ISO 175</p>
                                     </Carousel.Caption>
                                 </Carousel.Item>
                                 <Carousel.Item>
                                     <img class="img-fluid" src={require("./assets/img/ISO300.jpeg")} alt="..." style={{ "height": '100%', "width": "100%" }} />
                                     <Carousel.Caption>
-                                        <p style={{ "color": "red", "fontWeight": "bold" }}>ISO 250</p>
+                                        <p style={{ "color": "red", "fontWeight": "bold" }}>ISO 350</p>
                                     </Carousel.Caption>
                                 </Carousel.Item>
                             </Carousel>
