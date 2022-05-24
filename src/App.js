@@ -3,6 +3,16 @@ import Startpage from './Startpage';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Fotografie from './Fotografie';
 import Bilderbearbeitung from './Bilderbearbeitung';
+import Prozeduren from './Prozeduren';
+import Video from './Video';
+
+// SDK initialization
+const ImageKit = require("imagekit-javascript")
+var imagekit = new ImageKit({
+  publicKey: "public_QfIM25i70MSQPOR+cJRTKC9iR3U=",
+  urlEndpoint: "https://ik.imagekit.io/bfs63i4bbxl",
+  authenticationEndpoint: "http://localhost:3001/auth",
+});
 
 function App() {
   return (
@@ -12,6 +22,8 @@ function App() {
         <Route exact path={'/home'} component={Startpage} />
         <Route exact path={'/fotografie'} component={Fotografie} />
         <Route exact path={'/bilderbearbeitung'} component={Bilderbearbeitung} />
+        <Route exact path={'/prozeduren'} component={Prozeduren} />
+        <Route exact path={'/video'} component={Video} />
       </Router>
     </div>
   );
@@ -54,5 +66,6 @@ window.addEventListener('DOMContentLoaded', event => {
 
 });
 
+export { imagekit };
 export default App;
 
